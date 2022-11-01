@@ -1,3 +1,24 @@
+# Welcome to the Modal Page (DEMO)!📄📑
+An application whose purpose is to create different types of modules, reducing the size of the main bundle, only when necessary.
+Its main functionality is to pack our application with Lazy Loading as well as Suspense which allows us to display content while it is downloaded.
+
+# Steps to run the project 🚨:
+<p align="center">
+  <img height="180"src="src/Img/01.png" />
+  <img height="180" src="src/Img/02.png" />
+  <img height="200" src="src/Img/03.png" />
+</p>
+
+1.- Once the project is downloaded, access the terminal of your console.
+
+    * - To access open the terminal (Control + Ñ) or (Terminal - New Terminal).
+    * - Run the command "npm install"
+   
+<p align="center">
+  <img height="200" src="src/Img/04.png" />
+</p>
+                
+
 ## More info about me: 
 <div id="badges" >
 Ing. Kevin J. Montero Zea 
