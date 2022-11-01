@@ -1,6 +1,7 @@
 //funcion tradicional
 import React, {Suspense, lazy} from "react";
 import {createRoot} from "react-dom/client";
+import ModalLoading from "./modalLoading";
 
 
 export function openModal(){
@@ -11,7 +12,7 @@ document.body.appendChild(modalDiv);
 
 const root = createRoot(modalDiv);
 root.render(
-<Suspense fallback={<div>Loading...</div>}>
+<Suspense fallback={<ModalLoading />}>
 <Modal root={root} title="Modal de configuraciones" />    
 </Suspense>
 )
@@ -25,7 +26,7 @@ export function openModalAccount(){
     
     const root = createRoot(modalDiv);
     root.render(
-    <Suspense fallback={<div>Loading...</div>}>
+    <Suspense fallback={<ModalLoading />}>
     <Modal root={root} title="Modal de cuenta" />    
     </Suspense>
     )
